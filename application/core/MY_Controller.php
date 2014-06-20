@@ -10,6 +10,15 @@ class MY_Controller extends CI_Controller{
 	}
 }
 
+class Ajax_Request extends MY_Controller
+{
+	
+	function __construct()
+	{
+		parent::__construct();
+		if(ajax()===FALSE) die(show_404());
+	}
+}
 class Login extends MY_Controller{
 
 	function __construct()

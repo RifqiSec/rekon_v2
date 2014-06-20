@@ -2,10 +2,11 @@
 /**
 * 
 */
-class DashboardController extends CI_Controller
+class DashboardController extends Ajax_Request
 {
 	
 	function index(){
-		echo "string";
+		$data['title']	= "Dashboard";
+		$this->load->view('isi/dashboard',$data);
 	}
 }
