@@ -48,7 +48,7 @@
             <li class="">
                <a class="ajaxify " href="<?php echo site_url('kelas') ?>">
                <i class="icon-sitemap"></i> 
-               <span class="title">Manage Kelas</span>
+               <span class="title">Review Purchase Order</span>
                <span class="selected"></span>
                </a>
             </li>
